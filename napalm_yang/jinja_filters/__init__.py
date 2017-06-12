@@ -1,5 +1,5 @@
-import ip_filters
-import json_filters
+from napalm_yang.jinja_filters import ip_filters
+from napalm_yang.jinja_filters import json_filters
 
 JINJA_FILTERS = [
     ip_filters,
