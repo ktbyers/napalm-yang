@@ -1,4 +1,4 @@
-PYBINDPLUGIN=$(shell /usr/bin/env python -c 'import pyangbind; import os; print "%s/plugin" % os.path.dirname(pyangbind.__file__)')
+PYBINDPLUGIN=$(shell /usr/bin/env python -c 'import pyangbind; import os; print("%s/plugin" % os.path.dirname(pyangbind.__file__))')
 
 MODELS_PATH=napalm_yang/models
 
